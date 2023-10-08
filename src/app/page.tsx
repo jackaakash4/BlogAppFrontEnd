@@ -1,9 +1,12 @@
+import Navbar from '@/components/Navbar/Navbar'
 import './page.css'
+import Slider from '@/components/Slider/Slider'
 
 export default function Home() {
   return (
-    <main>
-      <h1>Hello, Let's do this from beginning</h1>
-    </main>
+    <>
+    <Navbar />
+    <Slider />
+    </>
   )
 }
