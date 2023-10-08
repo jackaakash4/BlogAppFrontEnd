@@ -1,7 +1,8 @@
-*{
+body{
     --col1: #121212;
     --col2: #FFFAFA;
     --col3: #74268C;
+    --col4: #9A6AFF;
 
     background-color: var(--col1);
     color: var(--col2);

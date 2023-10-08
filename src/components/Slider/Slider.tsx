@@ -1,35 +1,26 @@
 "use client"
-
 import React from 'react'
 import './Slider.css'
-
 import img1 from '@/Assets/Slider.jpg';
 import img2 from '@/Assets/Slider1.jpg';
 import img3 from '@/Assets/Slider2.jpg';
 
-
-
-
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
-
 
 function Slider() {
   const width = window.innerWidth;
   const height = window.innerHeight
 
   return (
-   
    <>
-    <Swiper
+   <div className='banner'>
+   <Swiper
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
@@ -67,9 +58,9 @@ function Slider() {
               objectFit: 'cover'
             }}
           /></SwiperSlide>
-
-
       </Swiper>
+   </div>
+    
    </>
    
   )
