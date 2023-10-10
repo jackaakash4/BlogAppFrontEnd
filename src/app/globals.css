@@ -3,7 +3,54 @@ body{
     --col2: #FFFAFA;
     --col3: #74268C;
     --col4: #9A6AFF;
-
     background-color: var(--col1);
+}
+*{
     color: var(--col2);
 }
+
+.forminput_cont{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    gap: 10px;
+}
+
+.forminput_cont input{
+    color: var(--col3);
+    background-color: var(--col2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4 rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    border: none;
+    width: 90%;
+    display: block;
+    border: 1px solid var(--col3);
+}
+
+.main_button{
+    background-color: var(--col3);
+    font-weight: 600;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid var(--col2);
+    width: fit-content;
+    align-self: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.main_button:hover{
+    border: 1px solid var(--col3);
+    background-color: var(--col2);
+    border-radius: 10px;
+    color: var(--col1);
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+

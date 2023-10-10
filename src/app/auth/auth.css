@@ -1,0 +1,30 @@
+.authout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    width: 100%;
+    background-color: var(--col1);
+    min-height: 100vh;
+}
+
+.authin{
+    width: 70%;
+    display: flex;
+    background-color: var(--col1);
+    margin-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.authin .left{
+    width: 40%;
+    background-color: gray;
+}
+
+.authin .right{
+    width: 60%;
+    padding: 10px;
+
+}
