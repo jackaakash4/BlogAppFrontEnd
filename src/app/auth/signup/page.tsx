@@ -37,7 +37,7 @@ function Signup() {
                 <button type='submit' className='main_button'>Register</button>
                 </form>
                 
-               <p>Already have an account? <Link href='/auth/signin'>Login</Link></p> 
+               <p className='authlink'>Already have an account? <Link href='/auth/signin'>Login</Link></p> 
 
             </div>
         </div>

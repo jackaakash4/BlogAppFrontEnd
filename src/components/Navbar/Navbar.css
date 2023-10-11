@@ -3,11 +3,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    width: 100vw;
-    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 1000;
-    background-color: var(--col1);
+    background-color: var(--col4);
 }
 
 
@@ -31,11 +30,16 @@
     height: 30px;
     object-fit: contain;
 }
+.navbar-right{
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+}
 
 .navbar-right a{
     text-decoration: none;
     color: white;
-    margin-left: 20px;
+    gap: 20px;
 }
 
 .navbar-right a:hover{

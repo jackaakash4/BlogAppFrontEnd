@@ -30,7 +30,7 @@ function Signin() {
                 <button type='submit' className='main_button'>Log In</button>
                 </form>
                 
-               <p>Don't have an account <Link href='/auth/signup'>Register</Link></p> 
+               <p className='authlink'>Don't have an account <Link href='/auth/signup'>Register</Link></p> 
 
             </div>
         </div>

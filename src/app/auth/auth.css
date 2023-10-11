@@ -20,11 +20,22 @@
 
 .authin .left{
     width: 40%;
-    background-color: gray;
+    background-color: var(--col3);
 }
 
 .authin .right{
     width: 60%;
     padding: 10px;
 
+}
+
+.authlink{
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.authlink a{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--col3);
 }
