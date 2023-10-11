@@ -2,7 +2,8 @@
 import Navbar from '@/components/Navbar/Navbar'
 import React from 'react'
 import Link from 'next/link'
-import { Fleur_De_Leah } from 'next/font/google'
+import '../auth.css'
+
 
 function Signup() {
   return (
@@ -26,10 +27,11 @@ function Signup() {
                     <input type='email' placeholder='Enter Your Email' />
                 </div>
                 <div className='forminput_cont'>
+                    <label>Password</label>
                     <input type='password' placeholder='Enter Your password' />
                 </div>
                 <div className='forminput_cont'>
-                    <label>Password</label>
+                    <label>Confirm Password</label>
                     <input type='password' placeholder='Confirm Your Password' />
                 </div>
                 <button type='submit' className='main_button'>Register</button>
