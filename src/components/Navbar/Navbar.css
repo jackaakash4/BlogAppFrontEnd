@@ -2,11 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
     width: 100%;
     top: 0;
     z-index: 1000;
-    background-color: var(--col4);
+    padding: 10px 0px 10px 0px;
 }
 
 
@@ -18,6 +17,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-left: 30px;
 }
 .navbar-left a{
     text-decoration: none;
