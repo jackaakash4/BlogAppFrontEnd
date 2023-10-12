@@ -7,11 +7,11 @@ import '../auth.css'
 
 function Signup() {
   return (
+    <>
+    <Navbar />
     <div className="authout">
-        <Navbar />
         <div className="authin">
             <div className="left">
- 
             </div>
             <div className="right">
                 <form style={{
@@ -43,6 +43,7 @@ function Signup() {
         </div>
 
     </div>
+    </>
   )
 }
 

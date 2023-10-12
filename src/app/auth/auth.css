@@ -1,7 +1,7 @@
 .authout{
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
     width: 100%;
     background-color: var(--col1);
@@ -20,7 +20,7 @@
 
 .authin .left{
     width: 40%;
-    background-color: var(--col3);
+    background-color: var(--col4);
 }
 
 .authin .right{
@@ -37,5 +37,5 @@
 .authlink a{
     text-decoration: none;
     cursor: pointer;
-    color: var(--col3);
+    color: var(--col4);
 }

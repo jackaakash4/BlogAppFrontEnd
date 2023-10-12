@@ -7,7 +7,7 @@ const category = [
     {
         name: "Following",
         path: "#",
-        bgcolor: '#9A6AFF'
+        bgcolor: '#777'
     },
     {
         name: "Reactjs",
@@ -17,7 +17,7 @@ const category = [
     {
         name: "Leadership",
         path: "#",
-        bgcolor: '#9A6AFF'
+        bgcolor: '#777'
     },
     {
         name: "Web Development",
@@ -27,7 +27,7 @@ const category = [
     {
         name: "Coding",
         path: "#",
-        bgcolor: '#9A6AFF'
+        bgcolor: '#777'
     },
     {
         name: "Business",
@@ -37,7 +37,7 @@ const category = [
     {
         name: "Health",
         path: "#",
-        bgcolor: '#9A6AFF'
+        bgcolor: '#777'
     }
 ]
 

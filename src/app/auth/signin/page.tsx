@@ -6,8 +6,9 @@ import '../auth.css'
 
 function Signin() {
   return (
+    <>
+    <Navbar />
     <div className="authout">
-        <Navbar />
         <div className="authin">
             <div className="left">
 
@@ -36,6 +37,7 @@ function Signin() {
         </div>
 
     </div>
+    </>
   )
 }
 

@@ -43,11 +43,11 @@
 }
 
 .navbar-right a:hover{
-    color: var(--col3);
+    color: var(--col4);
     transform: scale(1.2);
 }
 
 .navbar .icon:hover{
-    fill: var(--col3);
+    fill: var(--col4);
     transform: scale(1.2);
 }
